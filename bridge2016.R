@@ -27,4 +27,4 @@ for (q in 1:nrow(data2016)) {
   }
   q=q+1
 }
-fips <- paste(StateCode, CountyCode, sep = ",")
+fip<- paste(StateCode, CountyCode, sep = ",")
