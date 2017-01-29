@@ -1,4 +1,4 @@
-setwd("/Users/jacqueline/Downloads")
+##setwd("/Users/jacqueline/Downloads")
 data2016=read.csv("slubkin_992016-20170106140351.txt",header = TRUE,sep=",")
 
 lat <- c() #latitude
@@ -27,4 +27,4 @@ for (q in 1:nrow(data2016)) {
   }
   q=q+1
 }
-fip<- paste(StateCode, CountyCode, sep = ",")
+code<- paste(StateCode, CountyCode, sep = ",")
