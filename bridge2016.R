@@ -27,4 +27,4 @@ for (q in 1:nrow(data2016)) {
   }
   q=q+1
 }
-code<- paste(StateCode, CountyCode, sep = ",")
+code<-paste(StateCode, CountyCode, sep = ",")
