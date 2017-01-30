@@ -13,7 +13,7 @@ for (e in 1:nrow(data2016)) {
   }
   e=e+1
 }
-BridgeID <- paste(lat, long, sep = ",")
+BridgeLocation<- paste(lat, long, sep = ",")
 
 StateCode <- c()
 CountyCode <- c()
